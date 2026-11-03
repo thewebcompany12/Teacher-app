@@ -80,4 +80,4 @@ Only names are recorded here; no values or secrets:
 
 ## Deployment decision
 
-No application changes or production redeployment were made. The only write from this continuation is this factual status checkpoint. Do not present any current Vercel URL as the live Teacher App or Super Admin until the application routes and critical flows are independently verified.
+No application code changes were made and no intentional application release was initiated. The status-file commit triggered Vercel's connected Git auto-deployment; the resulting production build was still BUILDING at the last check and contains only the README plus this audit document. It is not a verified application release. Do not present any current Vercel URL as the live Teacher App or Super Admin until the application routes and critical flows are independently verified.
